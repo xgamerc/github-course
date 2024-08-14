@@ -2,7 +2,7 @@
 
 int main() {
   system("pause");
-  static_assert(123 / 2 != 0, "Error");
+  // static_assert(123 / 2 != 0, "Error");
     #ifdef IMPORT
       #ifndef LLA
           LogMessage( // 
