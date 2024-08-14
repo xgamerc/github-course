@@ -2,7 +2,6 @@
 #include <stdio.h>
 int main() {
   printf("Hello World!\n");
-  system("pause");
   // static_assert(123 / 2 != 0, "Error");
     #ifdef IMPORT
       #ifndef LLA
@@ -15,5 +14,4 @@ int main() {
     #else  // 
         LogMessage(true, 1, "Test: %05.2f%%", 25.52);
     #endif
-  system("pause");
 }
