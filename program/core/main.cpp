@@ -1,6 +1,7 @@
 #include "../platform/win32_program.h"
-
+#include <stdio.h>
 int main() {
+  printf("Hello World!\n");
   system("pause");
   static_assert(123 / 2 != 0, "Error");
     #ifdef IMPORT
