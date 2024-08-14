@@ -2,6 +2,7 @@
 #include <stdio.h>
 
 void TestFunction(); // ? xgamercpp
+void TestFunction2(); // ? xgamercpp
 
 int main() {
   TestFunction();
