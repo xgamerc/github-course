@@ -1,7 +1,7 @@
 #include "../platform/win32_program.h"
 
 int main() {
-  // static_assert(123 / 2 != 0, "Error");
+  static_assert(123 / 2 != 0, "Error");
     #ifdef IMPORT
       #ifndef LLA
           LogMessage( // 
