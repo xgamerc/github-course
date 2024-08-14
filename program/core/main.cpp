@@ -1,7 +1,10 @@
 #include "../platform/win32_program.h"
 #include <stdio.h>
+
+void TestFunction(); // ? xgamercpp
+
 int main() {
-  printf("Hello World!\n");
+  TestFunction();
   // static_assert(123 / 2 != 0, "Error");
     #ifdef IMPORT
       #ifndef LLA
@@ -14,4 +17,8 @@ int main() {
     #else  // 
         LogMessage(true, 1, "Test: %05.2f%%", 25.52);
     #endif
+}
+
+void TestFunction() {
+  printf("Hello World!\n");
 }
