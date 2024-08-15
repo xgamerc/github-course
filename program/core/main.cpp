@@ -3,6 +3,7 @@
 
 void TestFunction(); // ? xgamercpp
 void TestFunction2(); // ? xgamercpp
+void TestFunction3(); // ? other user (xgamercpp)
 
 int main() {
   TestFunction();
